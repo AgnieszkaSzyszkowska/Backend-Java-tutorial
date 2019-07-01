@@ -1,4 +1,4 @@
-# Java-tutorial
+# Backend tutorial with Java basics
 Basics for self-learner
 
 ## How to install Java on Windows?

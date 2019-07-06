@@ -30,6 +30,21 @@ Basic commands:
 
 Those commands are Linux-specific and will not work inside CMD, get used to Git Bash.
 
+## How to manage versioning of your code?
+Simply, by Git. It is a distributed versioning system, which means there is a remote repository available on GitHub but each
+developer in the team has his own version of the code. For now you will work on master branch only, which is the main verision.
+Commands which you absolutely must know to start:
+* *git clone* <- creates a local copy on your machine
+* *git init* <- initiates a new repository on your machine
+* *git status* <- prints the status of changes and newly created files
+* *git add <filename>* <- adds chosen file to set of changes to be commited
+* *git commit* -m "</brief description of your changes>"
+* *git push* <- pushes changes to remote repository
+* *git log* <- prints the history of commits in your repository (to escape this view type "q")
+
+Each repository must have a .gitignore file which you may copy from this tutorial.
+
+
 ## How to get this tutorial code to your machine?
 * If you don't have a GitHub account yet, register yourself. 
 * Above this readme file in GitHub you will find a button *Clone or download*, click on it. Copy the link *https://github.com/AgnieszkaSzyszkowska/Backend-Java-tutorial.git*
@@ -37,3 +52,4 @@ Those commands are Linux-specific and will not work inside CMD, get used to Git 
 * If you are logged in to **Github** you will be able to clone the repository.
 * Now you can open this project in IntelliJ IDEA. CLick *File -> Open ->* pick folder with *Java-tutorial* and click open. 
 * Hello!
+* If you want to get newest version simply open Git Bash, cd into folder Java-tutorial on your machine and execute command *git pull*

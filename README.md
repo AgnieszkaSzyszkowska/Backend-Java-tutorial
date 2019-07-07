@@ -4,7 +4,7 @@ Basics for self-learner
 ## How to install Java on Windows?
 1. First download Java 9 from this page: *https://jdk.java.net/java-se-ri/9*
 2. Unpack the zip file and move jdk-9 folder to *C://Program Files/Java*.
-3. After finishing the installation press *Windows* button on your keyboard and start typing *environment details*. You should be able to go to *Environment details* setup.
+3. Press *Windows* button on your keyboard and start typing *environment details*. You should be able to go to *Environment details* setup.
 Go to Environments details and attach the path to your Java installation (it should be something like *C:\Program Files\Java\jdk-9\bin*) after semicolon to user variable named *PATH* (if doesn't exist, create one).
 4. Now press *Windows* button on your keyboard, type *cmd* and press enter. A new command line terminal will open. Type *java -version*, if the installation went correctly you should be able to see the version of Java printed out.
 

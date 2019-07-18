@@ -2,6 +2,7 @@ package com.javatutorial.backend.beginner;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -9,9 +10,10 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Disabled("Remove this line when you implement the exercise and run the test, currently the test is disabled to not break the build")
 class ExerciseNr1PalindromeAndMapTest {
 
-    final ExerciseNr1PalindromeAndMap exerciseNr1PalindromeAndMap = new ExerciseNr1PalindromeAndMap();
+    private final ExerciseNr1PalindromeAndMap exerciseNr1PalindromeAndMap = new ExerciseNr1PalindromeAndMap();
 
     @Test
     void shouldReturnMapWithTwoResults() {

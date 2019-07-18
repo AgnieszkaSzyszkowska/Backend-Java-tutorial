@@ -26,3 +26,6 @@
 *.log
 *.sql
 *.sqlite
+
+# Target files #
+/target

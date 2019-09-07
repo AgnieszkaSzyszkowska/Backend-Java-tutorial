@@ -18,8 +18,8 @@ class ExerciseNr1PalindromeAndMapTest {
     @Test
     void shouldReturnMapWithTwoResults() {
         //given
-        final List<String> input = ImmutableList.of("NEVER", "CUP", "TAP", "DETARTRATED", "UNITEDSTATESOFAMERICA");
-        final Map<String, Integer> expectedResults = ImmutableMap.of("DETARTRATED", 11, "NEVER", 5);
+        final List<String> input = ImmutableList.of("NEVEN", "CUP", "TAP", "DETARTRATED", "UNITEDSTATESOFAMERICA");
+        final Map<String, Integer> expectedResults = ImmutableMap.of("DETARTRATED", 11, "NEVEN", 5);
 
         //when
         final Map<String, Integer> results = exerciseNr1PalindromeAndMap.checkIfPalindromeAndReturnSize(input);

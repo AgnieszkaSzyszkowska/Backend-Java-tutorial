@@ -1,0 +1,21 @@
+This exercise is going to be different, because you will write no code at all. Instead I would like to introduce you
+to Spring Boot Initializer available at https://start.spring.io/.
+On this page you will find a code generator which will generate a zipped project structure with predefined dependencies
+according to your choice. Once you download the code, you can uzip it and open in Intellij Idea (Always use option:
+"Open as new project", when prompted. Also it is a good practice to store all your source code in folder /IdeaProjects
+which is a default for Intellij Idea.
+Exercise:
+Generate a Maven project with source code based on newest stable version of Spring Boot, Java 11, main package
+com.javatutorials.example and following dependencies: Spring Web, Spring Data JPA and H2 Database.
+Download the zipped project, unzip it and move to /IdeaProject folder and open in Intellij Idea.
+Spend some time with the code, try to start the application (SHIFT + F10). Try to execute maven goals: clean + install using IDE.
+Look closely at generated maven file (points of attention:
+1. version 0.0.1 which is the very first version ever, first major version of the app should be versioned as 1.0.0
+2. parent section: spring-boot-starter-parent is parent dependencies in most Spring Boot projects
+3. properties section: here you should put all your future dependencies' versions
+4. dependency section: here you should put all your future dependencies
+
+It's worth to mention that most of external dependencies is stored in Maven Repository (https://mvnrepository.com)
+but it will happen, that you will use your own, your company's or other companies' repository, In this case you have
+to configure such repository in pom file in specific section.
+

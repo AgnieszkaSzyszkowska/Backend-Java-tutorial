@@ -1,0 +1,4 @@
+Napisz prostą aplikację javową (bez springa), która czyta linia po lini plik tekstowy i eliminuje z niego wszystkie znaki niebędące literemi lub cyframi.
+Użyj wyrażeń regularnych.
+Wynikiem działania aplikacji jest plik tekstowy w takim samym formacie jak plik wejściowy.
+Napisz testy jednostkowe.
